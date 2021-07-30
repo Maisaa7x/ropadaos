@@ -1,6 +1,5 @@
-/*AGREGAR ALGUNA SECCION MAS A HOMBRE; MUJER Y NIÑOS*/
 /*ARMAR RESPONSIVE*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 649px) {
     body {
       background-color: rgba(63, 181, 197, 0.76);
     }
@@ -36,84 +35,61 @@
     }
   }
   /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 1100px) {
+  @media only screen and (min-width: 650px) and (max-width: 1110px) {
     body {
       background-color: rgb(148, 102, 190);
     }
     header{
-        display: flex;
-        flex-wrap: nowrap;
         background-color: #8886f0d8;
         width: 100%;
-        height: 60px;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
     }
     .logoDaos{
-        margin: 0 5px;
-        font-size: 20px;
-        line-height: 60px;
-        padding: 0 5px;
-        width: max-content;
-    }
-    /*.menuLoco__toggle{
-        display: flex;
-        font-size: 30px;
-        padding: 0 20px;
-        line-height: 60px;
-        display: block;
-    }
-    .menuLoco--visible{
-        left: 0;
-    }*/
-    .menuLoco{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: left;
         margin: 0px;
-        left: 0;
-        top: 60px;
+        font-size: 7px;
+        line-height: 8px;
+        padding: 0px;
         width: 100%;
     }
+    button{
+        display: none;
+    }
+    .menuLoco{
+        display: flex;
+        background-color:#7f7deb;
+        justify-content: center;
+        margin-right: 0px;
+        width: 100%;
+        position: relative;
+    }
     .menuLoco__lista{
-        line-height: 70px;
+        line-height: 30px;
     }
     .menuLoco__sublista-link{
         text-decoration: none;
         color: rgb(253, 51, 128);
-        font-size: 15px;
-    }
-    .menuLoco__sublista-link:hover{
-        background-color: none;
-        margin-bottom: solid 6px rgb(255, 0, 98);
-        margin: 10px 0;
-        padding: 10px 15px;
-        transition: 0.5s;
-        border-radius: 7px;
+        font-size: 5px;
     }
     main{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        width: 80%;
-        height: 350px;
+        justify-content: space-around;
+        width: 70%;
+        height: 250px;
         padding-bottom: 0px;
-        padding-top: 5px;
-        margin-top: 20px;
+        padding-top: 10px;
+        margin-top: 40px;
         overflow-x: scroll;
     }
     main img{
-        height: 200px;
-        width: 100px;
+        height: 150px;
+        width: 50px;
         border-radius: 5px;
-        transition: all 0.5s;
-        margin: 0 10px;
-    }
-    main img:hover{
-        height: 202px;
-        width: 102px;
-        padding: 15px;
-        border-radius: 30px;
+        margin: 5px;
     }
   }
   /* Desktop Styles */
@@ -147,6 +123,9 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+button{
+    display: none;
 }
 main{
     display: flex;
