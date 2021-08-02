@@ -1,5 +1,5 @@
 /*ARMAR RESPONSIVE*/
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     body {
       background-color: rgba(63, 181, 197, 0.76);
     }
@@ -10,7 +10,7 @@
         margin: 0;
     }
     .menuLoco{
-        display: flex;
+        display: none;
         list-style: none;
         margin: -400px;
     }
