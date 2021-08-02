@@ -5,9 +5,11 @@ header{
     margin: 0;
 }
 nav{
+    width: 100%;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 0px auto;
 }
 button{
     display: none;
@@ -22,8 +24,9 @@ button{
     width: max-content;
 }
 .menuLoco{
+    width: 100%;
     display: flex;
-    margin-right: 20px;
+    justify-content: center;
     list-style: none;
     
     .menuLoco__lista{
@@ -57,16 +60,17 @@ button{
         margin-bottom: 0px;
     }
     nav{
+        margin-top: 3px;
         flex-direction: column;
         align-items: center;
     }
     .logoDaos{
-        background-color:#8886f0d8;
-        margin-top: 17px;
+        display: block;
+        background-color:#8886f0d8; 
         margin-right: auto;
         margin-left: auto;
         font-size: 30px;
-        line-height: 23px;
+        line-height: 37px;
         padding: 0px;
         width: 29%;
         position: relative;
@@ -77,21 +81,12 @@ button{
     .menuLoco{
         display: flex;
         flex-wrap: wrap;
-        border-radius: 15px;
         background-color:#7f7deb;
         justify-content: center;
         margin-top: 20px;
-        width: 70%;
+        width: 100%;
     }
-    .menuLoco__lista{
-        line-height: 20px;
-        font-size: small;
-    }
-    .menuLoco__sublista-link{
-        text-decoration: none;
-        color: rgb(253, 51, 128);
-        font-size: 7px;
-    }
+
     
     .form{
         min-width: 300px;
@@ -113,15 +108,12 @@ button{
         align-items: center;
     }
     .logoDaos{
+        display: block;
         background-color:#8886f0d8;
-        margin-top: 17px;
-        margin-right: auto;
-        margin-left: auto;
         font-size: 30px;
-        line-height: 23px;
+        line-height: 50px;
         padding: 0px;
-        width: 29%;
-        position: relative;
+        width: 100%;
     }
     button{
         display: none;
@@ -129,11 +121,10 @@ button{
     .menuLoco{
         display: flex;
         flex-wrap: wrap;
-        border-radius: 15px;
         background-color:#7f7deb;
         justify-content: center;
         margin-top: 20px;
-        width: 70%;
+        width: 100%;
     }
     .menuLoco__lista{
         line-height: 20px;
@@ -165,13 +156,13 @@ button{
         align-items: center;
     }
     .logoDaos{
+        display: block;
         background-color:#8886f0d8;
         margin-top: 17px;
         font-size: 30px;
         line-height: 23px;
-        padding: 0px;
-        width: 29%;
-        position: relative;
+        padding: 25px;
+        width: 50%;
     }
     button{
         display: none;
