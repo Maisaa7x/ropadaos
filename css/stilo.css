@@ -231,18 +231,6 @@ footer p a{
     color: rgb(82, 44, 126);
     text-decoration: none;
 }
-/*Seccion Colegios/Nosotros*/
-.colegiosDaos{
-    height: 700px;
-    width: 700px;
-    margin: 70px 300px 50px 370px;
-    padding: 10px 20px 20px 20px;
-    text-align: center;
-    border-color: darkturquoise;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 /* CLASES ROPA */
 h2{
     display: flex;

@@ -1,0 +1,57 @@
+header{
+    background-color: #8886f0d8;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+button{
+    display: none;
+}
+.logoDaos{
+    margin: 0 5px;
+    font-size: 35px;
+    color: rgb(253, 51, 128);
+    text-decoration: none;
+    line-height: 80px;
+    padding: 0 5px;
+    width: max-content;
+}
+/*.menuLoco__toggle{
+    color: rgb(253, 51, 128);
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: block;
+}*/
+.menuLoco{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    .menuLoco__lista{
+        display: flex;
+        font-size: 20px;
+        margin: 0 15px;
+        line-height: 80px;
+        text-transform: uppercase;
+        list-style: none;
+        .menuLoco__sublista-link{
+            text-decoration: none;
+            color: rgb(253, 51, 128);
+            font-size: 25px;
+            .menuLoco__sublista-link:hover{
+                background-color:#7f7deb;
+                margin: 10px 0;
+                padding: 10px 15px;
+                transition: 0.5s;
+                border-radius: 7px;
+            }
+        }
+    }
+}
