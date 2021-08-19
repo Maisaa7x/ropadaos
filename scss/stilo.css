@@ -473,7 +473,7 @@ h2 {
 }
 
 .formInput {
-  width: 80%;
+  width: 95%;
   padding: 7px;
   margin: 6px 0px;
   border: none;
@@ -482,13 +482,14 @@ h2 {
 }
 
 .formInput:focus {
-  background: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #a260ce), color-stop(80%, #8a73f1b6));
+  background: linear-gradient(#a260ce 10%, #8a73f1b6 80%);
   outline: none;
   border-bottom: 3px solid rgba(87, 113, 233, 0.575);
 }
 
 .form textarea {
-  width: 80%;
+  width: 100%;
   min-height: 140px;
   resize: none;
 }
@@ -600,5 +601,14 @@ select {
   border: solid 2px black;
   border-radius: 4px;
   background-color: #f1f1f1;
+}
+
+div iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=stilo.css.map */

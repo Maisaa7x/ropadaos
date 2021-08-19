@@ -16,7 +16,7 @@
     order: 5;
 }
 .formInput{
-    width: 80%;
+    width: 95%;
     padding: 7px;
     margin: 6px 0px;
     border: none;
@@ -24,12 +24,12 @@
     background: transparent;
 }
 .formInput:focus{
-    background: $colorPrincipal;
+    background: linear-gradient(rgb(162, 96, 206)10%, #8a73f1b6 80%,);
     outline: none;
     border-bottom:3px solid rgba(87, 113, 233, 0.575);
 }
 .form textarea{
-    width: 80%;
+    width: 100%;
     min-height: 140px;
     resize: none;
 }
