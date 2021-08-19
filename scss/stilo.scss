@@ -1,0 +1,45 @@
+//import all
+@import "variables";
+@import "header";
+@import "body";
+@import "main";
+@import "ropa";
+@import "form";
+@import "footer";
+
+//cosas fuera de seccion
+
+.daosCaballito{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+.imgdaosuno{
+    height: 80%;
+    width: 70%;
+}
+.subTexto{
+    color: rgb(82, 82, 185);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.centroContactoTexto{
+    text-align: center;
+    font-size: 50px;
+}
+.parrafen{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+}
+select {
+    width: 50%;
+    height: 35px;
+    margin: 15px auto;
+    padding: 5px 7px;
+    border: solid 2px black;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
