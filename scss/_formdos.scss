@@ -1,0 +1,35 @@
+.flex-containerDos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #9695ef50;
+    margin: 50px 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.formDos{
+    min-width: 200px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+.formInputDos{
+    width: 40%;
+    padding: 7px;
+    margin: 6px 0px;
+    border: none;
+    border-bottom: 3px solid rgba(87, 113, 233, 0.575);
+    background: transparent;
+}
+.formInputDos:focus{
+    background: linear-gradient(rgb(162, 96, 206)10%, #8a73f1b6 80%,);
+    outline: none;
+    border-bottom:3px solid rgba(87, 113, 233, 0.575);
+}
+.formDos textarea{
+    width: 100%;
+    min-height: 140px;
+    resize: none;
+}
